@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import '_variable';
+@import '_mixin';
+
+body {
+  font-family: 'Quicksand', serif;
+  background: $BACKCOLOR;
+  color: $WHITE;
+}
+
+main {
+  .conf-name {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+
+    @include pc {
+      h1 {
+        font-size: 72px;
+      }
+      h2 {
+        font-size: 48px;
+      }
+    }
+  }
+
+  .caption {
+    color: $ACCENT-COLOR;
+    text-align: center;
+    @include pc {
+      font-size: 48px;
+    }
+  }
+
+  .about {
+    text-align: center;
+  }
+}
+
+table {
+  margin: 0 auto;
+}
+table,
+td,
+th {
+  border: 1px #e5e5e5 solid;
+  border-collapse: collapse;
+}
+
+th {
+  @include pc {
+    font-size: 32px;
+  }
+
+  @include sp {
+    font-size: 20px;
+  }
+}
+
+.date-access {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .date-zone {
+    @include pc {
+      width: 50%;
+    }
+
+    @include sp {
+      width: 100vw;
+    }
+    background-color: $ACCENT-COLOR;
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      padding-left: 10px;
+    }
+  }
+
+  .access-map {
+    @include pc {
+      width: 50%;
+    }
+    @include sp {
+      width: 100vw;
+    }
+  }
+}
+
+.sponsor-content {
+  background-color: $WHITE;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  a {
+    width: 30%;
+  }
+}
+
+.staff-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .staff {
+    padding-right: 10px;
+    @include pc {
+      width: 30%;
+    }
+
+    @include sp {
+      width: 100%;
+    }
+    a {
+      color: $WHITE;
+      text-decoration: none;
+    }
+    span.staff-sns-name {
+      color: #a6a3a3;
+    }
+
+    img {
+      width: 88px;
+      height: 88px;
+      border-radius: 20%;
+      padding-right: 10px;
+    }
+    .staff-sns-link {
+      padding: 5px;
+    }
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+footer {
+  a {
+    color: $WHITE;
+    text-decoration: none;
+    &:hover {
+      border-bottom: 2px solid $WHITE;
+    }
+  }
+  text-align: center;
+}

@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+body {
+  font-family: "Quicksand", serif;
+  background: #283c5f;
+  color: #fff;
+}
+
+main .conf-name {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (min-width: 761px) {
+  main .conf-name h1 {
+    font-size: 72px;
+  }
+  main .conf-name h2 {
+    font-size: 48px;
+  }
+}
+main .caption {
+  color: #32c2ff;
+  text-align: center;
+}
+@media (min-width: 761px) {
+  main .caption {
+    font-size: 48px;
+  }
+}
+main .about {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table,
+td,
+th {
+  border: 1px #e5e5e5 solid;
+  border-collapse: collapse;
+}
+
+@media (min-width: 761px) {
+  th {
+    font-size: 32px;
+  }
+}
+@media (max-width: 760px) {
+  th {
+    font-size: 20px;
+  }
+}
+
+.date-access {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.date-access .date-zone {
+  background-color: #32c2ff;
+}
+@media (min-width: 761px) {
+  .date-access .date-zone {
+    width: 50%;
+  }
+}
+@media (max-width: 760px) {
+  .date-access .date-zone {
+    width: 100vw;
+  }
+}
+.date-access .date-zone h2 {
+  font-size: 30px;
+}
+.date-access .date-zone p {
+  padding-left: 10px;
+}
+@media (min-width: 761px) {
+  .date-access .access-map {
+    width: 50%;
+  }
+}
+@media (max-width: 760px) {
+  .date-access .access-map {
+    width: 100vw;
+  }
+}
+
+.sponsor-content {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sponsor-content a {
+  width: 30%;
+}
+
+.staff-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.staff-content .staff {
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 761px) {
+  .staff-content .staff {
+    width: 30%;
+  }
+}
+@media (max-width: 760px) {
+  .staff-content .staff {
+    width: 100%;
+  }
+}
+.staff-content .staff a {
+  color: #fff;
+  text-decoration: none;
+}
+.staff-content .staff span.staff-sns-name {
+  color: #a6a3a3;
+}
+.staff-content .staff img {
+  width: 88px;
+  height: 88px;
+  border-radius: 20%;
+  padding-right: 10px;
+}
+.staff-content .staff .staff-sns-link {
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
