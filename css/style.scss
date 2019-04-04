@@ -108,6 +108,7 @@ th {
     padding: 8px;
 
     @include sp {
+      justify-content: flex-start;
       width: 100%;
     }
     a {
