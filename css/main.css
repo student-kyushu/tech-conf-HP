@@ -64,7 +64,7 @@ th {
 }
 @media (min-width: 761px) {
   .date-access .date-zone {
-    width: 50%;
+    width: 40%;
   }
 }
 @media (max-width: 760px) {
@@ -76,11 +76,11 @@ th {
   font-size: 30px;
 }
 .date-access .date-zone p {
-  padding-left: 10px;
+  padding-left: 8px;
 }
 @media (min-width: 761px) {
   .date-access .access-map {
-    width: 50%;
+    width: 60%;
   }
 }
 @media (max-width: 760px) {
@@ -105,18 +105,14 @@ th {
   flex-wrap: wrap;
 }
 .staff-content .staff {
-  padding-right: 10px;
+  padding: 8px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-@media (min-width: 761px) {
-  .staff-content .staff {
-    width: 30%;
-  }
-}
 @media (max-width: 760px) {
   .staff-content .staff {
+    justify-content: flex-start;
     width: 100%;
   }
 }
@@ -131,10 +127,10 @@ th {
   width: 88px;
   height: 88px;
   border-radius: 20%;
-  padding-right: 10px;
+  padding-right: 8px;
 }
 .staff-content .staff .staff-sns-link {
-  padding: 5px;
+  padding: 4px;
 }
 
 footer {
