@@ -75,7 +75,7 @@ th {
       font-size: 30px;
     }
     p {
-      padding-left: 10px;
+      padding-left: 8px;
     }
   }
 
@@ -105,10 +105,7 @@ th {
   flex-wrap: wrap;
 
   .staff {
-    padding-right: 10px;
-    @include pc {
-      width: 30%;
-    }
+    padding: 8px;
 
     @include sp {
       width: 100%;
@@ -125,10 +122,10 @@ th {
       width: 88px;
       height: 88px;
       border-radius: 20%;
-      padding-right: 10px;
+      padding-right: 8px;
     }
     .staff-sns-link {
-      padding: 5px;
+      padding: 4px;
     }
 
     display: flex;
