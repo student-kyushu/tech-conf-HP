@@ -64,7 +64,7 @@ th {
   flex-wrap: wrap;
   .date-zone {
     @include pc {
-      width: 50%;
+      width: 40%;
     }
 
     @include sp {
@@ -81,7 +81,7 @@ th {
 
   .access-map {
     @include pc {
-      width: 50%;
+      width: 60%;
     }
     @include sp {
       width: 100vw;
